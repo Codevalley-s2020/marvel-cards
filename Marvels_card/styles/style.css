@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: bebas-kai, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 100vh;
+  width: 100vw;
+  background: #b3232b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  background: radial-gradient(50% 50% at 50% 50%, #424657 1.77%, #16171c 100%);
+  border-radius: 40px;
+  position: relative;
+  width: 20vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s;
+  color: rgba(231, 231, 231, 0.089);
+}
+
+.container-1 h1 {
+  padding: 0 0 40px 0;
+}
+
+.container-1 p {
+  font-family: Open sans;
+}
+
+#iron-man {
+  width: 15vw;
+  height: 40vh;
+}
+
+#iron-man-2 {
+  width: 10vw;
+  height: 8vh;
+}
+
+.container-2 {
+  background: radial-gradient(50% 50% at 50% 50%, #424657 1.77%, #16171c 100%);
+  border-radius: 40px;
+  position: relative;
+  width: 20vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  margin: 0 5vh;
+  transition: transform 0.2s;
+  color: rgba(231, 231, 231, 0.089);
+}
+
+.container-2 h1 {
+  padding: 0 0 40px 0;
+}
+
+.container-2 p {
+  font-family: Open sans;
+}
+
+#deadpool {
+  width: 10vw;
+  height: 40vh;
+}
+
+#deadpool-2 {
+  width: 15vw;
+  height: 8vh;
+}
+
+.container-3 {
+  background: radial-gradient(50% 50% at 50% 50%, #424657 1.77%, #16171c 100%);
+  border-radius: 40px;
+  position: relative;
+  width: 20vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.2s;
+  color: rgba(231, 231, 231, 0.089);
+}
+
+.container-3 h1 {
+  padding: 0 0 40px 0;
+}
+
+.container-3 p {
+  font-family: Open sans;
+}
+
+#thor {
+  width: 15vw;
+  height: 40vh;
+}
+
+#thor-2 {
+  width: 15vw;
+  height: 8vh;
+}
+
+.container-1:hover {
+  transform: scale(1.2);
+  color: #b3232b;
+}
+
+.container-2:hover {
+  transform: scale(1.2);
+  color: #b3232b;
+}
+
+.container-3:hover {
+  transform: scale(1.2);
+  color: #b3232b;
+}
